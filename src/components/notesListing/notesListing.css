@@ -1,0 +1,124 @@
+
+.noteSection{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: #F7ECDC;
+}
+.noGroupSelectedSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.messageWrapper{
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pocketNotesHeading{
+  font-weight: 500;
+  font-size: 40px;
+  margin: 0px;
+}
+.encryptionMsg{
+  text-align: center;
+  position: absolute;
+  bottom: 1rem;
+}
+
+.NotesListingInnerWrapper{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.notesIconBar{
+  display: flex;
+  width: 100%;
+  height: 10%;
+  align-items: center;
+  background: #E8E8E8;
+}
+.navGroupIcon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 7vh;
+  height: 7vh;
+  border-radius: 100px;
+  color: white;
+  font-size: 1.17em;
+  margin: 0% 2% 0% 1%;
+}
+
+.navGroupName{
+  color: black;
+  font-weight: 600;
+  font-size: 3vh;
+}
+
+.notesListing{
+  display: flex;
+  flex-direction: column;
+  background: #F7ECDC;
+  width: 100%;
+  align-items: center;
+  height: 72%;
+  padding: 1em 1em 0em 2em;
+  box-sizing: border-box;
+  overflow: auto;
+}
+.noteBlock{
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 7vh;
+}
+.dateTime{
+  display: flex;
+  width: 15%;
+}
+.note{
+  display: flex;
+  width: 85%;
+}
+
+.notesInputWrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+  width: 100%;
+  height: 30%;
+  background: #E8E8E8;
+  position: relative;
+  border-radius: 0 0 0 10px;
+}
+.notesInputArea{
+  height: 87%;
+    width: 96%;
+    position: relative;
+    border: none;
+    resize: none;
+    padding: .5em .8em;
+    font-size: 1.25rem;
+    border-radius: 9px;
+}
+.sendMessageIcon{
+  position: absolute;
+  bottom: 12%;
+  right: 4%;
+}
+
+.backIconWrapper{
+  display: flex;
+  height: 100%;
+  width: 10%;
+  align-items: center;
+  justify-content: center;
+}

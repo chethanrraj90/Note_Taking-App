@@ -1,0 +1,73 @@
+.notesGroup{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.groupListTopSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 15%;
+    width: 100%;
+}
+.appHeading{
+    display: flex;
+    margin: 10% 0% 2% 5%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.createGroupBtn{
+    color: #fff;
+    font-size: 1.3rem;
+    margin: 1em;
+    /* padding: .2em 2em; */
+    background-color: #000000;
+    border-radius: 20px;
+}
+
+.createGroupBtn:hover{
+    color: #000000;
+    background-color: #fff;
+}
+
+.groupListSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-top: 4%;
+    height: 80%;
+    width: 100%;
+    overflow: auto;
+}
+.groupCard{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    padding: .5em;
+    box-sizing: border-box;
+    border-radius: 32px 0px 0px 32px;
+}
+
+.groupListSection:hover{
+    color: #db2e2e;
+}
+
+.groupIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7vh;
+    height: 7vh;
+    border-radius: 100px;
+    color: white;
+    font-size: 1.17em;
+    margin: 0% 6% 0% 2%;
+}
+.groupName{
+    color: black;
+    font-weight: 600;
+    font-size: 3vh;
+}
